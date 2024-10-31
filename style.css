@@ -23,22 +23,20 @@ html {
 body {
   font-family: "Inter", "sans-serif";
   background-color: #000;
-  display: flex;
   letter-spacing: 0.2em;
   font-weight: 400;
   line-height: 1;
+  font-size: 1.125rem;
+
+  display: flex;
 }
 
 button {
   cursor: pointer;
-  font-family: inherit;
   font-weight: inherit;
   line-height: inherit;
+  font-size: inherit;
   letter-spacing: inherit;
-}
-
-video {
-  height: 100%;
 }
 
 .friday--video {
@@ -48,7 +46,8 @@ video {
   opacity: 0;
   left: 50%;
   top: 50%;
-  width: min(700px, 100%);
+  height: 100%;
+  width: min(43.75rem, 100%);
   transform: translate(-50%, -50%);
   transition: opacity 0.2s ease-in;
 }
@@ -64,14 +63,13 @@ video {
 
 .friday {
   margin: auto;
-  font-size: 18px;
-  border: 1px solid #ff4747c4;
+  border: 0.0625rem solid #ff4747c4;
   background-color: red;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   user-select: none;
   text-transform: uppercase;
-  border-radius: 8px;
-  box-shadow: 0 0 22px red;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1.375rem red;
   transition: background-color 0.4s ease-out;
 }
 
